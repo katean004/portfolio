@@ -7,11 +7,11 @@ Purpose: develop a portfolio using Bootstrap that includes
 
 
 Tips:
--Minimizing the use of media queries. 
--Utilize Bootstrap's grid system.
--On xs screen the content should take up the entire screen. 
--On sm and larger screens there should be margin on the sides of the screen. 
--Use HTML validation service to ensure that each page has valid HTML. 
+1. Minimizing the use of media queries. 
+2. Utilize Bootstrap's grid system.
+3. On xs screen the content should take up the entire screen. 
+4. On sm and larger screens there should be margin on the sides of the screen. 
+5. Use HTML validation service to ensure that each page has valid HTML. 
 
 
 Requirements:
