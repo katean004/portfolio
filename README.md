@@ -3,7 +3,7 @@
 ******************************************************************************** 
 Website: https://katean004.github.io/portfolio/
 
-![image](https://gyazo.com/4595926e8190bd77da06db22f642a92c)
+![](https://i.gyazo.com/4595926e8190bd77da06db22f642a92c.png)
 
 Purpose: develop a portfolio using Bootstrap that includes 
 1. navbar 
