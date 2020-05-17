@@ -1,4 +1,9 @@
 # portfolio
+ 
+******************************************************************************** 
+Website: https://katean004.github.io/portfolio/
+
+![image](https://gyazo.com/4595926e8190bd77da06db22f642a92c)
 
 Purpose: develop a portfolio using Bootstrap that includes 
 1. navbar 
@@ -25,3 +30,5 @@ Requirements:
 
 Bonus:
 *Use Bootstrap to make a sticky footer and sub-columns on portfolio site. 
+
+********************************************************************************
