@@ -146,7 +146,7 @@ button a {
 }
 
 
-.container {
+/* .container {
     background-color: #DEE2FF;
     width: 650px;
     height: 450px;
@@ -159,7 +159,7 @@ button a {
     position: relative;
     bottom: 280px;
     right: 400px;
-}
+} */
 
 #emailBtn {
     background-color: rgb(155, 147, 147);
