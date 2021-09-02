@@ -1,0 +1,186 @@
+body {
+    background-image: url("/assets/images/coffeeBack.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#square1 {
+    background-color: #6b705c;
+    height: 170px;
+    width: 170px;
+    transform: translate(50px, 50%);
+    display: inline-block;
+    transform: rotate(45deg);
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+#square1:hover {
+    transition: width 2s, height 2s, transform 2s;
+    transform: rotate(180deg);
+}
+
+#square2 {
+    background-color: #9c6644;
+    height: 170px;
+    width: 170px;
+    display: inline-block;
+    transform: translate(50px, 50%);
+    transform: rotate(45deg);
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+#square2:hover {
+    transition: width 2s, height 2s, transform 2s;
+    transform: rotate(180deg);
+}
+
+#circle1 {
+    background-color: #a5a58d;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+#circle1:hover {
+    background-color: #9a8c98;
+}
+
+#circle2 {
+    background-color: #cb997e;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+#circle2:hover {
+    background-color: #9a8c98;
+}
+
+
+.shapes-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    font-size: 300px;
+    margin: 0;
+    font-style: italic;
+}
+
+.text-content {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.button-container {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-container button {
+    margin: 12px 12px;
+    background: none;
+    padding: 0.5em 1em;
+    border: 2px solid #babdc2;
+    font-family: 'Caudex', serif;
+    font-size: 1.2em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    color: white;
+    font-weight: 300;
+    border-radius: 0.5rem;
+}
+
+.button-container button:hover {
+    background-color: #ede0d4;
+    /* border-color: #f1ff5c; */
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #51565f;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    background-color: transparent;
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color:  #717a8b;
+    font-weight: 600;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: 'Caudex', serif;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: large;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+
+.container {
+    background-color: #DEE2FF;
+    width: 650px;
+    height: 450px;
+    padding: 50px;
+    margin: 30px;
+    border: 5px solid #CBC0D3;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 280px;
+    right: 400px;
+}
+
+#emailBtn {
+    background-color: rgb(155, 147, 147);
+    border: 1px solid rgb(185, 173, 173);
+    font-family: 'Caudex', serif;
+    color: white;
+}
+
+.icons {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    color: rgb(155, 147, 147);
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+#icons-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
