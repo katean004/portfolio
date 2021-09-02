@@ -1,8 +1,10 @@
 body {
-    background-image: url("/assets/images/coffeeBack.jpg");
+    /* background-image: url("/assets/images/coffeeBack.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;  */
+    background-color: #f0d7bf;
+
 }
 
 #square1 {
@@ -72,6 +74,7 @@ body {
 
 h1 {
     text-align: center;
+    color: #6b4a38;
     font-family: 'Caudex', serif;
     font-weight: 200;
     font-size: 300px;
